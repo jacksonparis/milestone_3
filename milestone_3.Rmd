@@ -1,0 +1,22 @@
+---
+title: "Milestone_3"
+author: "Jackson Kehoe"
+date: "10/4/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+**My Project**  <br/>
+The United States is a country where wild spaces abound. But are US citizens aware of regional ecologies, and the travel options available to them? How is national park popularity changing? I'm interested in visualizing these trends. 
+
+**My Data**  <br/>
+Some raw data I have found for use in this project can be accessed [here](https://data.world/garyhoov/national-parks-sorted-by-total-attendance-and-by-year/workspace/file?filename=National+Parks+Ranked+by+Total+Visitation+1904-2016+and+by+Year.xlsx). This dataset contains information on location (state), type of park (i.e. Parkway, National Park, National Memorial), and  visitor numbers for years 2008-2016. Additionally, other datasets on dataworld such as [this](https://data.world/nps/annual-park-ranking-recreation-visits) contain ranking information on all national parks and could be used to cross-check names.  
+<br/>
+I would sort this data in different ways in order to format some graphics. Potentially, a location-based interactive graphic could be made to show each states' "popularity" using a color gradient, and the most popular parks within them (although this sounds more like GIS... how to do this in R, I don't know). Dealing with visitors over time could lead to a graph showing the overall trend (all data), or the parks with the highest increase/decrease over the past 10 years.  
+<br/>
+**Alternative Possibilities**  <br/>
+Although I like this project, I am not dead set on it. Other possibilities I had considered include population/time data for specific species (potentially, with a focus on endangered species or plant/pollinator relationships) or mapping trends in houseplant sales via data from big box stores (Home Depot, Lowes, Whole Foods).
